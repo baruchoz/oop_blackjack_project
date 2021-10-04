@@ -48,7 +48,8 @@ class Deck:
 
 class Player:   
     def __init__(self):
-        pass
+        self.hand = []
+
 class User(Player):
     pass
 
